@@ -1,0 +1,55 @@
+html, body {
+	margin: 0;
+	min-height: 100vh;
+}
+
+#gameboard {
+	position: relative;
+	display: grid;
+	grid-template-columns: 50px 50px 50px;
+	grid-template-rows: 50px 50px 50px;
+	justify-content: center;
+	top: 20vh;
+}
+
+.board {
+	cursor: pointer;
+	border-radius: 0px;
+	border: 2px solid black;
+}
+
+.no-tr {
+	border-right: none;
+	border-top: none;
+}
+
+.no-r {
+	border-right: none;
+}
+
+.no-br {
+	border-right: none;
+	border-bottom: none;
+}
+
+.no-tl {
+	border-left: none;
+	border-top: none;
+}
+
+.no-t {
+	border-top: none;
+}
+
+.no-l {
+	border-left: none;
+}
+
+.no-bl {
+	border-bottom: none;
+	border-left: none;
+}
+
+.no-b {
+	border-bottom: none;
+}
